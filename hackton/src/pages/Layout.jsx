@@ -11,9 +11,10 @@ function Layout() {
       <NavLink to="/layout/forms" className="nav-link">Forms</NavLink>
       <NavLink to="/layout/Data-Selection" className="nav-link">Data-selection</NavLink>
       <NavLink to="/layout/data-manipuration" className="nav-link">Data-manipuration</NavLink>
-      <NavLink to="/layout/Datadisplay" className="nav-link">Data-display</NavLink>
+      <NavLink to="/layout/DataDisplay" className="nav-link">Data-display</NavLink>
       <NavLink to="/layout/CRUD" className="nav-link">CRUD</NavLink>
       <NavLink to="/layout/BasicReactRouter" className="nav-link">Basic-React-router</NavLink>
+      <NavLink to="/layout/cards" className="nav-link">cards</NavLink>
     </div>
     <Outlet />
     </div>

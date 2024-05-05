@@ -11,6 +11,7 @@ import DataManipulation from './pages/DataManipulation'
 import DataDisplay from './pages/DataDisplay'
 import CRUD from './pages/CRUD'
 import BasicReactHook from './pages/BasicReactHook'
+import Cards from './pages/Cards'
 function App() {
   return (
     <div>
@@ -27,6 +28,7 @@ function App() {
           <Route path="/layout/data-display" element={<DataDisplay />} />
           <Route path="/layout/CRUD" element={<CRUD />} />
           <Route path="/layout/basic-router-hook" element={<BasicReactHook />} />
+          <Route path="/layout/cards" element={<Cards  />} />
           </Route>
           
         </Routes>
